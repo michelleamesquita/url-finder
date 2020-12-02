@@ -4,7 +4,7 @@ UrlFinder is a Burpsuite extension for request/response body,to get all URLs fro
 ### Installation
 Install from BApp:
 1. Visit [Jython Offical Site](https://www.jython.org/download), and download Jython Standalone jar file.
-2. Open Burpsuite, goto Extender -> Options -> Python Environment, set the Location of Jython Jar. And goto Extender -> BApp Store, find Burp Beautifier and install it.
+2. Open Burpsuite, goto Extender -> Options -> Python Environment, set the Location of Jython Jar. And go to Extender -> BApp Store, find Burp Beautifier and install it.
 
 
 Manual Install:
@@ -18,8 +18,8 @@ Manual Install:
 
   `java -jar jython-standalone-2.7.2.jar -m pip install beautifulsoup4`
 
-4. Open Burpsuite, goto Extender -> Options -> Python Environment, set the Location of Jython Jar is `C:\jython2.7.2\jython.jar`, and the Folder for loading modules is `C:\jython2.7.1`.
-5. Download this tool, Open Burpsuite, goto Extender -> Extensions -> Add -> Choose the beautifier.py.
+4. Open Burpsuite, go to Extender -> Options -> Python Environment, set the Location of Jython Jar is `C:\jython2.7.2\jython.jar`, and the Folder for loading modules is `C:\jython2.7.2`.
+5. Download this tool, Open Burpsuite, go to Extender -> Extensions -> Add -> Choose the beautifier.py.
 
 ### Screenshot
 ![messageEditorTab](img/img.png)
