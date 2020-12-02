@@ -9,8 +9,8 @@ Install from BApp:
 
 Manual Install:
 1. Visit [Jython Offical Site](https://www.jython.org/download), and download Jython Installer.
-2. Open Jython Installer to install Jython(In standard mode, make sure it will install pip). Assume it has be installed in `C:\jython2.7.1` directory.
-3. Install Jython modules: `C:\jython2.7.1\bin\jython.exe -m pip install -r requirements.txt` or: 
+2. Open Jython Installer to install Jython(In standard mode, make sure it will install pip). Assume it has be installed in `C:\jython2.7.2` directory.
+3. Install Jython modules: `C:\jython2.7.2\bin\jython.exe -m pip install -r requirements.txt` or Jython.jar : 
 
   `java -jar jython-standalone-2.7.2.jar -m ensurepip`  
 
@@ -18,7 +18,7 @@ Manual Install:
 
   `java -jar jython-standalone-2.7.2.jar -m pip install beautifulsoup4`
 
-4. Open Burpsuite, goto Extender -> Options -> Python Environment, set the Location of Jython Jar is `C:\jython2.7.1\jython.jar`, and the Folder for loading modules is `C:\jython2.7.1`.
+4. Open Burpsuite, goto Extender -> Options -> Python Environment, set the Location of Jython Jar is `C:\jython2.7.2\jython.jar`, and the Folder for loading modules is `C:\jython2.7.1`.
 5. Download this tool, Open Burpsuite, goto Extender -> Extensions -> Add -> Choose the beautifier.py.
 
 ### Screenshot
