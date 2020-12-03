@@ -27,4 +27,4 @@ Manual Install:
 ### How to use
 1. Write the website that you want to send the request
 2. Click on button "Click"
-3. Wait and see all URLs from this Website
+3. Wait and see all URLs extractetd from this Website
